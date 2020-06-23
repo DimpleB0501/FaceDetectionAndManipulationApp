@@ -12,7 +12,7 @@
 * `cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local/opencv4 -D OPENCV_EXTRA_MODULES_PATH=/path_to(where your contrib modules are located)/opencv_contrib/modules .. ` <br/>
 <br/>
 
-span style="color:blue">some *This is Blue italic.* text</span>
+<span style="color:blue">some *This is Blue italic.* text</span>
 <span style="color:red"> *</span>
 **Note** <br/>
 /path_to(where your contrib modules are located)<br/>
