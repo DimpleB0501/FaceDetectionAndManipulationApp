@@ -10,24 +10,21 @@
 * `mkdir build ` <br/>
 * `cd build ` <br/>
 * `cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local/opencv4 -D OPENCV_EXTRA_MODULES_PATH=/path_to(where your contrib modules are located)/opencv_contrib/modules .. ` <br/>
-<br/>
 
-$\color{color-code}{your-text-here}$
-<span style="color:red"> *</span>
-**Note** <br/>
+See the **Notes** below for errors at this step <br/>
+* `make -j4 `<br/>
+* `sudo make install`<br/>
+
+
+#### Notes
+**Note1** <br/>
 /path_to(where your contrib modules are located)<br/>
 For example: <br/>
 My path is `/home/dimple/opencv_contrib/modules`<br/>
 So I will run the following in terminal <br/>
  `cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local/opencv4 -D OPENCV_EXTRA_MODULES_PATH=/home/dimple/opencv_contrib/modules ..` 
-*</span>
-<br/>
 
-See the **Note1** below for errors at this step <br/>
-* `make -j4 `<br/>
-* `sudo make install`<br/>
-
-**Note1**: During the build I had cmake error due to contrib path, following is the snapshot of the error <br/>
+**Note2**: During the build I had cmake error due to contrib path, following is the snapshot of the error <br/>
 ![cmakeError](./Images/cmakeError.png)
 <br/> 
 I implemented a simple fix to rename the contrib folder from <br/> 
