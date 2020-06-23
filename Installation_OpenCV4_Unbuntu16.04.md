@@ -10,12 +10,16 @@
 * `mkdir build ` <br/>
 * `cd build ` <br/>
 * `cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local/opencv4 -D OPENCV_EXTRA_MODULES_PATH=/path_to(where your contrib modules are located)/opencv_contrib/modules .. ` <br/>
+<br/>
+<span style="color:red"> *</span>
 **Note** <br/>
 /path_to(where your contrib modules are located)<br/>
 For example: <br/>
 My path is `/home/dimple/opencv_contrib/modules`<br/>
 So I will run the following in terminal <br/>
  `cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local/opencv4 -D OPENCV_EXTRA_MODULES_PATH=/home/dimple/opencv_contrib/modules ..` 
+*</span>
+<br/>
 
 See the **Note1** below for errors at this step <br/>
 * `make -j4 `<br/>
