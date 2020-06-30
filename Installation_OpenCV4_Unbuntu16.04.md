@@ -26,8 +26,8 @@ So I will run the following in terminal <br/>
 
 * **Note2**: During the build I had cmake error due to contrib path, following is the snapshot of the error <br/>
 ![cmakeError](./Images/cmakeError.png)
-<br/> 
+ 
 I implemented a simple fix to rename the contrib folder from <br/> 
-![fix](./Images/fix.png) <br/> 
+![fix](./Images/fix.png) 
 to <br/> 
-![fix1](./Images/nameChange.png) <br/> 
+![fix1](./Images/nameChange.png)
